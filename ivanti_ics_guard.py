@@ -343,7 +343,7 @@ def render_host(host: Host, paint: Paint) -> str:
     rows.extend(remediation(verdict, host.name, host.reachable))
     rows.append("")
     rows.append(paint.title("Bluefire Redteam"))
-    rows.append("Offensive security from Ahmedabad, Singapore, and New York.")
+    rows.append("A global offensive security firm.")
     rows.append(CTA)
     return "\n".join(rows)
 
@@ -432,8 +432,8 @@ def render_markdown(host: Host) -> str:
         "",
         "## Bluefire Redteam",
         "",
-        "Bluefire Redteam is an offensive security firm. The work is red teaming, penetration testing, "
-        "and AI security testing, delivered from Ahmedabad, Singapore, and New York.",
+        "Bluefire Redteam is a global offensive security firm. The work is red teaming, penetration testing, "
+        "and AI security testing.",
         "",
         f"To run this across a VPN estate, write to [{CONTACT}](mailto:{CONTACT}) or start at [{SITE}]({SITE}).",
         "",

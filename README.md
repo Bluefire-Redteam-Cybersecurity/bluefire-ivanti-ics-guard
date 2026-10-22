@@ -4,7 +4,7 @@ Checker only. It compares a build number with the vendor table and prints cleanu
 
 Exposure check for **CVE-2026-104935**, an authentication bypass in Ivanti Connect Secure that lets a remote caller run commands without logging in. CVSS 8.6. CISA added it to the Known Exploited Vulnerabilities catalog on 13 October 2026. The federal due date was 16 October 2026.
 
-Bluefire Redteam is an offensive security firm. We do red teaming, penetration testing, and AI security testing from Ahmedabad, Singapore, and New York.
+Bluefire Redteam is a global offensive security firm. We do red teaming, penetration testing, and AI security testing.
 
 This tool compares a build number with Ivanti's published table. It does not try the bypass. A page fetch is one GET, and only to read a version string if the portal already prints one.
 
